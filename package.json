@@ -1,0 +1,22 @@
+{
+  "name": "mondebug",
+  "version": "1.0.0",
+  "description": "Super simple module for debugging. It allows you to run any code on the Chrome Debugger keeping a process running with a server for further exploration of the code results of the computation",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --inspect test.js"
+  },
+  "keywords": [
+    "debugging",
+    "nodemon"
+  ],
+  "author": "Diego Villaseñor",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "5.9.0",
+    "nodemon": "1.18.7"
+  },
+  "dependencies": {
+    "express": "4.16.4"
+  }
+}
