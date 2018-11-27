@@ -6,10 +6,7 @@ Super simple module for debugging that reloads code on the Chrome Debugger on sa
 `npm i mondebug`
 
 ## Usage
-
-In any file:
-
-On your code:
+On any file:
 ```js
 //anyfile.js
 const mondebug = require('mondebug')
@@ -31,7 +28,6 @@ mondebug(3333, () => {
   global.something = something // you may use global to make your code available in the Chrome Inspector
 })
 ```
-
 
 On the terminal:
 `node --inspect anyfile.js`
