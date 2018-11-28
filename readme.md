@@ -3,7 +3,7 @@
 Super simple module for debugging that reloads code on the Chrome Debugger on save and keeps the file running with an express server for further exploration of the code.
 
 ## Installation
-`npm i mondebug`
+`npm i mondebug -D`
 
 ## Usage
 On any file:
